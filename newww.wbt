@@ -1,0 +1,33 @@
+#VRML_SIM R2023a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/floors/protos/CircleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/rocks/protos/Rock10cm.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.3056918254813288 -0.1697868827712043 -0.9368697466952011 4.101180394257448
+  position 0.657640660324797 -1.071406815766485 0.8837256245461338
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+CircleArena {
+}
+Rock10cm {
+}
+E-puck {
+  hidden position_0_0 117.3771919710143
+  hidden position_0_1 132.0943451208506
+  hidden linearVelocity_0 0.024878842485170582 -0.05022920140777524 -1.290738122592567e-08
+  hidden angularVelocity_0 0.0012563327658641828 0.0006174771709824172 0.0944743698564732
+  hidden rotation_1 0 1 0 4.2798564417817415
+  hidden rotation_2 0 -1 0 6.135731637100312
+  translation -0.09957222387154008 -0.08107354118077176 -6.431243469891094e-05
+  rotation 0.0002806735977984995 0.0006567311949845541 0.999999744963202 -1.1091254235095596
+  controller "obtacle_avoidance"
+}
